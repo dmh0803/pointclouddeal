@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PointPropertiesDlg</class>
+ <widget class="QDialog" name="PointPropertiesDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>234</width>
+    <height>30</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>点/距离/角度</string>
+  </property>
+  <layout class="QHBoxLayout">
+   <property name="leftMargin">
+    <number>2</number>
+   </property>
+   <property name="topMargin">
+    <number>2</number>
+   </property>
+   <property name="rightMargin">
+    <number>2</number>
+   </property>
+   <property name="bottomMargin">
+    <number>2</number>
+   </property>
+   <item>
+    <widget class="QToolButton" name="pointPropertiesButton">
+     <property name="toolTip">
+      <string comment="Display selected point properties">选择一个点并显示其信息</string>
+     </property>
+     <property name="statusTip">
+      <string>选择一个点并显示其信息</string>
+     </property>
+     <property name="text">
+      <string notr="true">点信息</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../icones.qrc">
+       <normaloff>:/CC/images/smallPointProperties.png</normaloff>:/CC/images/smallPointProperties.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="pointPointDistanceButton">
+     <property name="toolTip">
+      <string comment="Compute point to point distance">选择2个点并显示段信息（长度等）</string>
+     </property>
+     <property name="statusTip">
+      <string comment="Compute point to point distance">选择2个点并显示段信息（长度等）</string>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="text">
+      <string notr="true">两点距离</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../icones.qrc">
+       <normaloff>:/CC/images/smallPointDistance.png</normaloff>:/CC/images/smallPointDistance.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="pointsAngleButton">
+     <property name="toolTip">
+      <string>选择3个点并显示相应的三角形信息</string>
+     </property>
+     <property name="statusTip">
+      <string>选择3个点并显示相应的三角形信息</string>
+     </property>
+     <property name="text">
+      <string notr="true">角度</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../icones.qrc">
+       <normaloff>:/CC/images/smallPointsAngle.png</normaloff>:/CC/images/smallPointsAngle.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="rectZoneToolButton">
+     <property name="toolTip">
+      <string>定义矩形二维标签</string>
+     </property>
+     <property name="statusTip">
+      <string>定义矩形二维标签</string>
+     </property>
+     <property name="text">
+      <string>2D区域</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../icones.qrc">
+       <normaloff>:/CC/images/smallRectangleSelect.png</normaloff>:/CC/images/smallRectangleSelect.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="saveLabelButton">
+     <property name="toolTip">
+      <string>添加到当前云标签的子项</string>
+     </property>
+     <property name="statusTip">
+      <string>添加到当前云标签的子项</string>
+     </property>
+     <property name="text">
+      <string notr="true">保存</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../icones.qrc">
+       <normaloff>:/CC/images/ccSave.png</normaloff>:/CC/images/ccSave.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="razButton">
+     <property name="toolTip">
+      <string>重置</string>
+     </property>
+     <property name="text">
+      <string notr="true">撤销</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../icones.qrc">
+       <normaloff>:/CC/images/smallReset.png</normaloff>:/CC/images/smallReset.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="closeButton">
+     <property name="toolTip">
+      <string>关闭</string>
+     </property>
+     <property name="text">
+      <string notr="true">关闭</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../icones.qrc">
+       <normaloff>:/CC/images/smallCancel.png</normaloff>:/CC/images/smallCancel.png</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../icones.qrc"/>
+  <include location="../icones.qrc"/>
+ </resources>
+ <connections/>
+</ui>

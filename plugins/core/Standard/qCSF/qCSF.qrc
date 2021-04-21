@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/CC/plugin/qCSF">
+        <file>images/hun.png</file>
+        <file>images/gun.png</file>
+        <file>images/ft.png</file>
+        <file>images/pp.png</file>
+        <file>info.json</file>
+    </qresource>
+</RCC>

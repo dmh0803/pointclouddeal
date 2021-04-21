@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/CC/plugin/qCompass">
+        <file>images/icon.png</file>
+        <file>info.html</file>
+        <file>info.json</file>
+    </qresource>
+</RCC>
